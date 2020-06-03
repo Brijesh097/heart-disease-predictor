@@ -21,21 +21,21 @@ First of all we need a data science toolkit. You can either go for **Anaconda** 
 
 After you're done installing the data science toolkit its time to setup the project folder containing all the mandatory libraries. Follow the step by step procedure which explains you how to get your development environment running.
 
-- **Clone GitHub repository**
+- **Clone GitHub repository** <br>
     Find a location on your computer where you want to store the project. Now, run the following command to pull the project from GitHub and create a copy of it. And `cd` into the project.
     ```
     https://github.com/Brijesh097/heart-disease-predictor.git
     ```
     
     
-- **Create an environment folder and install the libraries**
+- **Create an environment folder and install the libraries** <br>
     We'll be using libraries such as **Pandas**, **NumPy**, **Scikit-learn**, **Matplotlib**, **Seaborn** and **Jupyter Notebook** to write and execute the code.
     ```
     conda create --prefix ./env pandas numpy scikit-learn matplotlib seaborn jupyter
     ```
 
 
-- **Activate the environment**
+- **Activate the environment** <br>
     After all the mandatory libraries have been installed we can activate the environment by executing the following command.
     ```
     conda activate <path_of_env>
@@ -51,7 +51,7 @@ After you're done installing the data science toolkit its time to setup the proj
     conda deactivate
     ```
     
-- **Open the notebook**
+- **Open the notebook** <br>
     To view the `heart-disease-classifier.ipynb` notebook, use
     ```
     jupyter notebook
